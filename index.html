@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/pngwing.com.png" alt="logo"></a>
+        <div class="bx bx-menu" id="menu-icon">=</div>
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Contact</a></li>           
+        </ul>
+
+        <a href="#" class="home-btn">Shop Now</a>
+    </header>
+
+    <section class="home">
+        <div class="home-text">
+            <h4>Big Sale up to 40% Offer</h4>
+            <h1>This Black Nike <br>Black</h1>
+            <p>An Exclusive Selection this season's trends <span>Exclusive Online</span></p>
+            <div class="home-inp">
+                <form action="#">
+                    <input type="search" placeholder="Search for products">
+                    <input type="submit" placeholder="Search">
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="right">
+        <a href="#">Facebook</a>
+        <a href="#">Upwork</a>
+        <a href="#">Fiverr</a>
+    </div>
+
+    <script>
+        let menu = document.querySelector("#menu-icon")
+        let navlist = document.querySelector(".navlist")
+
+        menu.onclick =() =>{
+            menu.classList.toggle("bx-menu")
+            navlist.classList.toggle("open")
+        }
+    </script>
+    
+</body>
+</html>
